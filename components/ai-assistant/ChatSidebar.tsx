@@ -10,6 +10,7 @@ import {
   UserCircle,
 } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 interface ChatSidebarProps {
   onNewChat: () => void;
@@ -40,10 +41,12 @@ export function ChatSidebar({
         {/* Logo */}
         <div className="flex items-center justify-between px-4 pt-5 pb-4">
           <Link href="/" className="flex items-center gap-1">
-            <img
+            <Image
               src="/images/logo/logo.png"
               alt="Perfect Building Supply Co."
-              className="h-8 w-8 object-contain"
+              width={32}
+              height={32}
+              className="object-contain"
             />
           </Link>
           <button

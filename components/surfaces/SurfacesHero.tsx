@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import Button from "@/components/ui/Button";
 import { Truck, DollarSign, ShieldCheck } from "lucide-react";
@@ -28,7 +29,7 @@ export default function SurfacesHero() {
           transition={{ duration: 0.5 }}
           className="hidden sm:flex items-center gap-4 mb-6"
         >
-          <img src="/images/logo/logo.png" alt="Perfect Building Supply Co." className="h-16 md:h-20 w-16 md:w-20 object-contain bg-white rounded-lg p-1" />
+          <Image src="/images/logo/logo.png" alt="Perfect Building Supply Co." width={80} height={80} className="h-16 md:h-20 w-16 md:w-20 object-contain bg-white rounded-lg p-1" />
           <div>
             <p className="text-white/60 text-sm font-medium tracking-wider uppercase">The Perfect</p>
             <p className="text-white text-lg md:text-xl font-bold leading-tight">Building Supply Co.</p>

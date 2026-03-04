@@ -2,6 +2,7 @@
 
 import { useState, useRef, useCallback } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, X, ChevronDown, ChevronRight } from "lucide-react";
 
@@ -99,7 +100,7 @@ export default function Header() {
         <div className="flex items-center gap-4 h-14">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 flex-shrink-0">
-            <img src="/images/logo/logo.png" alt="Perfect Building Supply Co." className="h-10 w-10 object-contain" />
+            <Image src="/images/logo/logo.png" alt="Perfect Building Supply Co." width={40} height={40} className="object-contain" />
             <span className="font-heading font-extrabold text-xl sm:text-2xl tracking-tight whitespace-nowrap">
               <span className="text-accent-orange">P</span><span className="text-white">erfect </span><span className="text-accent-orange">B</span><span className="text-white">uilding </span><span className="text-accent-orange">S</span><span className="text-white">upply</span>
             </span>

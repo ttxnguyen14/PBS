@@ -4,6 +4,7 @@ import { useCallback } from "react";
 import { motion } from "framer-motion";
 import { CheckCircle } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 import { useChat } from "@/components/ai-assistant/use-chat";
 import { useLeadCapture } from "@/components/ai-assistant/use-lead-capture";
@@ -72,10 +73,12 @@ export default function AIAssistantPage() {
           href="/"
           className="flex items-center gap-2 text-sm font-semibold text-charcoal"
         >
-          <img
+          <Image
             src="/images/logo/logo.png"
             alt="PBS"
-            className="h-7 w-7 object-contain"
+            width={28}
+            height={28}
+            className="object-contain"
           />
           AI Sourcing Agent
         </Link>

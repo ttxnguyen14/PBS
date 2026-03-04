@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
   Heart,
   Award,
@@ -72,10 +73,12 @@ export default function AboutUsPage() {
       {/* Hero - Full-width banner with storefront photo */}
       <section className="relative h-[280px] sm:h-[380px] md:h-[500px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
-          <img
+          <Image
             src="/images/logo/pbs-storefront.jpeg"
             alt="The Perfect Building Supply Company storefront"
-            className="w-full h-full object-cover"
+            fill
+            priority
+            className="object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-charcoal/80 via-charcoal/40 to-charcoal/20" />
         </div>
@@ -128,10 +131,11 @@ export default function AboutUsPage() {
               </p>
             </div>
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-gray-100">
-              <img
+              <Image
                 src="/images/surfaces/trade-professionals.png"
                 alt="Perfect Building Supply Co. team at work"
-                className="w-full h-full object-cover"
+                fill
+                className="object-cover"
               />
             </div>
           </div>
@@ -156,10 +160,11 @@ export default function AboutUsPage() {
               </Button>
             </div>
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
-              <img
+              <Image
                 src="/images/surfaces/fabricator-banner-desktop.png"
                 alt="Our Mission"
-                className="w-full h-full object-cover"
+                fill
+                className="object-cover"
               />
             </div>
           </div>
@@ -168,11 +173,12 @@ export default function AboutUsPage() {
 
       {/* Banner */}
       <section className="relative">
-        <div className="aspect-[3/1] sm:aspect-[4/1] overflow-hidden">
-          <img
+        <div className="aspect-[3/1] sm:aspect-[4/1] overflow-hidden relative">
+          <Image
             src="/images/contact/contact-wrap.png"
             alt="Perfect Building Supply Co. banner"
-            className="w-full h-full object-cover"
+            fill
+            className="object-cover"
           />
         </div>
       </section>
@@ -264,10 +270,11 @@ export default function AboutUsPage() {
               <div key={member.name} className="text-center group">
                 <div className="w-28 h-28 md:w-36 md:h-36 mx-auto mb-4 rounded-full overflow-hidden bg-gray-100 relative">
                   {member.image ? (
-                    <img
+                    <Image
                       src={member.image}
                       alt={member.name}
-                      className="w-full h-full object-cover"
+                      fill
+                      className="object-cover"
                     />
                   ) : (
                     <div className="w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">

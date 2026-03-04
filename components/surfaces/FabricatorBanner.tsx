@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Crown, Check } from "lucide-react";
 import Button from "@/components/ui/Button";
@@ -23,10 +24,11 @@ function FabricatorImage() {
   }
 
   return (
-    <img
+    <Image
       src="/images/surfaces/fabricator-banner-desktop.png"
       alt="Stone fabricator at work"
-      className="w-full h-full object-cover rounded-2xl"
+      fill
+      className="object-cover rounded-2xl"
       onError={() => setImgError(true)}
     />
   );
@@ -71,7 +73,7 @@ export default function FabricatorBanner() {
             </div>
           </div>
           <div className="flex-1">
-            <div className="aspect-[4/3] overflow-hidden">
+            <div className="aspect-[4/3] overflow-hidden relative">
               <FabricatorImage />
             </div>
           </div>

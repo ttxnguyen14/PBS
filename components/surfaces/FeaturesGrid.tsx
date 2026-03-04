@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { DollarSign, Coins, Headphones, Package } from "lucide-react";
 import Button from "@/components/ui/Button";
@@ -78,7 +79,7 @@ export default function FeaturesGrid() {
 
               {/* Top: logo + label */}
               <div className="relative z-10 flex items-center gap-3">
-                <img src="/images/logo/logo.png" alt="PBS" className="h-10 w-10 object-contain" />
+                <Image src="/images/logo/logo.png" alt="PBS" width={40} height={40} className="object-contain" />
                 <div>
                   <p className="text-white/50 text-xs uppercase tracking-widest">Perfect Building Supply</p>
                   <p className="text-white font-semibold text-sm">Trade Pricing</p>

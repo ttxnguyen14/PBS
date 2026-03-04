@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 const collections = [
@@ -47,10 +48,11 @@ export default function CollectionCards() {
                 href={collection.href}
                 className="group relative block rounded-2xl overflow-hidden aspect-[4/5] bg-gray-100"
               >
-                <img
+                <Image
                   src={collection.image}
                   alt={collection.name}
-                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  fill
+                  className="object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-charcoal/80 via-charcoal/20 to-transparent z-10" />
                 <div className="absolute bottom-0 left-0 right-0 p-6 z-20">

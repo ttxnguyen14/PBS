@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Star } from "lucide-react";
 import type { Testimonial } from "@/data/testimonials";
 
@@ -14,10 +15,12 @@ export default function TestimonialCard({ testimonial }: { testimonial: Testimon
       <p className="text-gray-700 mb-6 flex-1 italic">&ldquo;{testimonial.quote}&rdquo;</p>
       <div className="flex items-center gap-3">
         {testimonial.image ? (
-          <img
+          <Image
             src={testimonial.image}
             alt={testimonial.name}
-            className="w-10 h-10 rounded-full object-cover"
+            width={40}
+            height={40}
+            className="rounded-full object-cover"
           />
         ) : (
           <div className="w-10 h-10 rounded-full bg-accent-orange/15 flex items-center justify-center">
