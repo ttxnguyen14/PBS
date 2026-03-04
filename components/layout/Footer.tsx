@@ -67,6 +67,20 @@ export default function Footer() {
             <p className="text-xs text-white/60 leading-snug mb-3">
               The Perfect Building<br />Supply Company
             </p>
+            <address className="not-italic text-xs text-white/50 space-y-1">
+              <p>515 Mountain Dr</p>
+              <p>Destin, FL 32541</p>
+              <p>
+                <a href="tel:+17139271500" className="hover:text-white transition-colors">
+                  (713) 927-1500
+                </a>
+              </p>
+              <p>
+                <a href="mailto:LettonLLC@gmail.com" className="hover:text-white transition-colors">
+                  LettonLLC@gmail.com
+                </a>
+              </p>
+            </address>
           </div>
 
           {/* Link columns */}
