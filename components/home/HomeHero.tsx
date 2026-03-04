@@ -32,9 +32,9 @@ export default function HomeHero() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-3 leading-tight"
         >
-          Cabinets. WPC Walls. Ceilings.
+          Wholesale Flooring, Cabinets &amp; Quartz Countertops
           <br />
-          <span className="text-accent-orange">Trade Prices.</span>
+          <span className="text-accent-orange">for Contractors &amp; Builders</span>
         </motion.h1>
 
         <motion.p
@@ -43,9 +43,9 @@ export default function HomeHero() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-base md:text-xl lg:text-2xl text-white/70 mb-6 max-w-2xl"
         >
-          Wholesale building materials for contractors, builders, and trade
-          professionals. Custom configurations, bulk pricing, and dedicated
-          support.
+          SPC &amp; LVP flooring, WPC/PVC walls &amp; ceilings, kitchen &amp; bath
+          fixtures, and more — at wholesale prices with bulk ordering and
+          dedicated support.
         </motion.p>
 
         <div className="flex flex-wrap gap-3 md:gap-4 mb-8">
