@@ -8,6 +8,7 @@ import {
 } from "@/data/products";
 import CategoryHeader from "@/components/collections/CategoryHeader";
 import ProductGrid from "@/components/collections/ProductGrid";
+import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
 export async function generateStaticParams() {
   return productCategories.map((cat) => ({
@@ -46,6 +47,13 @@ export default async function CategoryPage({
 
   return (
     <>
+      <Breadcrumbs
+        items={[
+          { label: "Home", href: "/" },
+          { label: "Collections", href: "/collections" },
+          { label: category.name },
+        ]}
+      />
       <CategoryHeader
         name={category.name}
         description={category.description}
