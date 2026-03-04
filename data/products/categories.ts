@@ -7,7 +7,7 @@ export const productCategories: ProductCategory[] = [
     slug: "cabinets",
     description:
       "Ready-to-assemble and pre-assembled kitchen cabinets in shaker, flat-panel, and raised-panel styles. Soft-close hardware, plywood construction, and multiple finish options.",
-    image: "/images/products/cabinets/category.jpg",
+    image: "/images/products/cabinets/shaker-white.jpg",
     subcategories: ["Shaker", "Flat Panel", "Raised Panel"],
   },
   {
@@ -16,7 +16,7 @@ export const productCategories: ProductCategory[] = [
     slug: "quartz-slabs",
     description:
       "Engineered quartz slabs for countertops, vanities, and feature walls. Consistent color, non-porous surface, and low maintenance.",
-    image: "/images/products/quartz-slabs/category.jpg",
+    image: "/images/products/quartz-slabs/calacatta-laza.jpg",
     subcategories: ["Marble Look", "Solid Color", "Veined", "Concrete Look"],
   },
   {
@@ -25,7 +25,7 @@ export const productCategories: ProductCategory[] = [
     slug: "spc-flooring",
     description:
       "Stone Polymer Composite and Luxury Vinyl Plank flooring. 100% waterproof, scratch-resistant, and easy click-lock installation.",
-    image: "/images/products/spc-flooring/category.jpg",
+    image: "/images/products/spc-flooring/n4001-citrine.jpg",
     subcategories: ["Wood Look", "Stone Look", "Light Tones", "Dark Tones"],
   },
   {
@@ -34,7 +34,7 @@ export const productCategories: ProductCategory[] = [
     slug: "pvc-wall-panels",
     description:
       "Lightweight PVC wall panels for interior walls and ceilings. Waterproof, easy to install, and available in multiple profiles and finishes.",
-    image: "/images/products/pvc-wall-panels/category.jpg",
+    image: "/images/products/pvc-wall-panels/room-shot.jpg",
     subcategories: ["Flat Panel", "Fluted Panel", "V-Groove"],
   },
   {
@@ -43,7 +43,7 @@ export const productCategories: ProductCategory[] = [
     slug: "wpc-outdoor",
     description:
       "Wood-Plastic Composite decking, fencing, and cladding for outdoor applications. Weather-resistant, low-maintenance, and splinter-free.",
-    image: "/images/products/wpc-outdoor/category.jpg",
+    image: "/images/products/wpc-outdoor/decking-coex.jpg",
     subcategories: ["Decking", "Fencing", "Cladding"],
   },
   {
@@ -52,7 +52,7 @@ export const productCategories: ProductCategory[] = [
     slug: "sanitaryware",
     description:
       "Toilets, basins, and bathroom fixtures. One-piece, two-piece, and wall-hung designs with water-saving flush systems.",
-    image: "/images/products/sanitaryware/category.jpg",
+    image: "/images/products/sanitaryware/one-piece-v1005.png",
     subcategories: [
       "One-Piece Toilet",
       "Two-Piece Toilet",
