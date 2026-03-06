@@ -1,6 +1,9 @@
 import { Resend } from "resend";
 
-const NOTIFICATION_EMAIL = "LettonLLC@gmail.com";
+const NOTIFICATION_EMAILS = [
+  "MrPerfectBuildingSupply@gmail.com",
+  "LettonLLC@gmail.com",
+];
 
 interface LeadNotification {
   type: "lead" | "quote";
@@ -35,7 +38,7 @@ export async function notifyNewLead(data: LeadNotification) {
     const resend = new Resend(process.env.RESEND_API_KEY);
     await resend.emails.send({
       from: "Perfect Building Supply <notifications@perfectbuildingsupply.com>",
-      to: NOTIFICATION_EMAIL,
+      to: NOTIFICATION_EMAILS,
       subject,
       html,
     });

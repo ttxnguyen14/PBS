@@ -78,6 +78,9 @@ export default function SurfacesHero() {
           <Button href="/sign-up" variant="accent" size="lg">
             Get Started
           </Button>
+          <Button href="tel:+18503987361" variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-charcoal">
+            Call (850) 398-7361
+          </Button>
           <Button href="tel:+17139271500" variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-charcoal">
             Call (713) 927-1500
           </Button>

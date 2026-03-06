@@ -29,7 +29,19 @@ export default function ContactSection({
         <p className="text-center text-white/70 mb-12 max-w-2xl mx-auto">
           {subtitle}
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
+          <a
+            href="tel:+18503987361"
+            className="flex flex-col items-center p-6 md:p-8 bg-white rounded-2xl shadow-md hover:shadow-lg transition-shadow group"
+          >
+            <div className="w-14 h-14 bg-accent-orange/10 rounded-full flex items-center justify-center mb-4 group-hover:bg-accent-orange/20 transition-colors">
+              <Phone className="w-6 h-6 text-accent-orange" />
+            </div>
+            <h3 className="font-semibold text-charcoal mb-1">Call James</h3>
+            <p className="text-sm text-gray-500 mb-2">Speak with our sourcing pros</p>
+            <span className="text-charcoal font-semibold">(850) 398-7361</span>
+          </a>
+
           <a
             href="tel:+17139271500"
             className="flex flex-col items-center p-6 md:p-8 bg-white rounded-2xl shadow-md hover:shadow-lg transition-shadow group"
@@ -37,9 +49,21 @@ export default function ContactSection({
             <div className="w-14 h-14 bg-accent-orange/10 rounded-full flex items-center justify-center mb-4 group-hover:bg-accent-orange/20 transition-colors">
               <Phone className="w-6 h-6 text-accent-orange" />
             </div>
-            <h3 className="font-semibold text-charcoal mb-1">Call Us</h3>
+            <h3 className="font-semibold text-charcoal mb-1">Call Tan</h3>
             <p className="text-sm text-gray-500 mb-2">Speak with our sourcing pros</p>
             <span className="text-charcoal font-semibold">(713) 927-1500</span>
+          </a>
+
+          <a
+            href="mailto:MrPerfectBuildingSupply@gmail.com"
+            className="flex flex-col items-center p-6 md:p-8 bg-white rounded-2xl shadow-md hover:shadow-lg transition-shadow group"
+          >
+            <div className="w-14 h-14 bg-accent-orange/10 rounded-full flex items-center justify-center mb-4 group-hover:bg-accent-orange/20 transition-colors">
+              <Mail className="w-6 h-6 text-accent-orange" />
+            </div>
+            <h3 className="font-semibold text-charcoal mb-1">Email James</h3>
+            <p className="text-sm text-gray-500 mb-2">Get detailed information</p>
+            <span className="text-charcoal font-semibold text-xs sm:text-sm">MrPerfectBuildingSupply@gmail.com</span>
           </a>
 
           <a
@@ -49,7 +73,7 @@ export default function ContactSection({
             <div className="w-14 h-14 bg-accent-orange/10 rounded-full flex items-center justify-center mb-4 group-hover:bg-accent-orange/20 transition-colors">
               <Mail className="w-6 h-6 text-accent-orange" />
             </div>
-            <h3 className="font-semibold text-charcoal mb-1">Email Us</h3>
+            <h3 className="font-semibold text-charcoal mb-1">Email Tan</h3>
             <p className="text-sm text-gray-500 mb-2">Get detailed information</p>
             <span className="text-charcoal font-semibold">LettonLLC@gmail.com</span>
           </a>

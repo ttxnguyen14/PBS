@@ -65,8 +65,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             url: "https://www.perfectbuildingsupply.com",
             logo: "https://www.perfectbuildingsupply.com/images/logo/logo.png",
             image: "https://www.perfectbuildingsupply.com/images/logo/pbs-storefront.jpeg",
-            telephone: "+1-713-927-1500",
-            email: "LettonLLC@gmail.com",
+            telephone: ["+1-850-398-7361", "+1-713-927-1500"],
+            email: ["MrPerfectBuildingSupply@gmail.com", "LettonLLC@gmail.com"],
             address: {
               "@type": "PostalAddress",
               streetAddress: "515 Mountain Dr",

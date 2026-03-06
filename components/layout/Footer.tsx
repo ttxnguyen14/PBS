@@ -71,8 +71,18 @@ export default function Footer() {
               <p>515 Mountain Dr</p>
               <p>Destin, FL 32541</p>
               <p>
+                <a href="tel:+18503987361" className="hover:text-white transition-colors">
+                  (850) 398-7361
+                </a>
+              </p>
+              <p>
                 <a href="tel:+17139271500" className="hover:text-white transition-colors">
                   (713) 927-1500
+                </a>
+              </p>
+              <p>
+                <a href="mailto:MrPerfectBuildingSupply@gmail.com" className="hover:text-white transition-colors">
+                  MrPerfectBuildingSupply@gmail.com
                 </a>
               </p>
               <p>
