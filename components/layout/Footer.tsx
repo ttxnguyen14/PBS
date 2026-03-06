@@ -16,7 +16,7 @@ const footerColumns = [
     title: "Products & Tools",
     links: [
       { label: "AI Sourcing", href: "/ai-assistant" },
-      { label: "Get an Estimate", href: "/surfaces" },
+      { label: "Get a Quote", href: "/sign-up" },
     ],
   },
   {

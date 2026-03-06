@@ -82,14 +82,14 @@ export function ChatSidebar({
             New Chat
           </button>
           <Link
-            href="/surfaces"
+            href="/sign-up"
             className="flex items-center gap-2.5 px-3 py-2.5 text-sm text-gray-600 hover:bg-gray-50 rounded-lg transition-colors"
           >
             <FileText className="w-4 h-4" />
             My Quote
           </Link>
           <Link
-            href="/surfaces"
+            href="/sign-up"
             className="flex items-center gap-2.5 px-3 py-2.5 text-sm text-gray-600 hover:bg-gray-50 rounded-lg transition-colors"
           >
             <Heart className="w-4 h-4" />
@@ -100,7 +100,7 @@ export function ChatSidebar({
         {/* Bottom nav */}
         <div className="border-t border-gray-200 px-3 py-3 space-y-0.5">
           <Link
-            href="/surfaces"
+            href="/collections"
             className="flex items-center gap-2.5 px-3 py-2 text-sm text-gray-600 hover:bg-gray-50 rounded-lg transition-colors"
           >
             <ShoppingBag className="w-4 h-4" />
