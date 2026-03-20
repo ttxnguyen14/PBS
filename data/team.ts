@@ -58,8 +58,8 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Trang Nguyen",
-    role: "Vietnam Suppliers Manager",
-    location: "Vietnam",
+    role: "Suppliers Manager",
+    location: "Destin, FL",
     image: "/avatars/trang_nguyen.png",
     bio: "",
   },
