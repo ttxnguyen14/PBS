@@ -91,15 +91,16 @@ export default function Footer() {
                 </a>
               </p>
             </address>
-            <div className="flex items-center gap-3 mt-3">
+            <p className="text-xs text-white/40 mt-4 mb-2">Follow Us</p>
+            <div className="flex items-center gap-3">
               <a
                 href="https://www.facebook.com/profile.php?id=61575569205217"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Follow us on Facebook"
-                className="text-white/50 hover:text-white transition-colors"
+                className="text-white/60 hover:text-[#1877F2] transition-colors"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                 </svg>
               </a>
@@ -108,9 +109,9 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Message us on Messenger"
-                className="text-white/50 hover:text-white transition-colors"
+                className="text-white/60 hover:text-[#0099FF] transition-colors"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M12 2C6.477 2 2 6.145 2 11.243c0 2.906 1.453 5.497 3.727 7.192V22l3.405-1.868c.91.252 1.871.388 2.868.388 5.523 0 10-4.145 10-9.243S17.523 2 12 2zm1.07 12.456L10.59 11.88l-4.47 2.576 4.914-5.213 2.48 2.576 4.47-2.576-4.914 5.213z" />
                 </svg>
               </a>
