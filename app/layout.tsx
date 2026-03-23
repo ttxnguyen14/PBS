@@ -99,7 +99,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               opens: "08:00",
               closes: "17:00",
             },
-            sameAs: [],
+            sameAs: ["https://www.facebook.com/profile.php?id=61575569205217"],
           }),
         }}
       />
