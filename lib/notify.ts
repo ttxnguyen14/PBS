@@ -1,7 +1,7 @@
 import { Resend } from "resend";
 
 const NOTIFICATION_EMAILS = [
-  "MrPerfectBuildingSupply@gmail.com",
+  "txnguyen12@yahoo.com",
   "LettonLLC@gmail.com",
 ];
 
