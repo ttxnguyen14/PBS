@@ -65,26 +65,16 @@ export default function Footer() {
               <Image src="/images/logo/logo.png" alt="Perfect Building Supply Co." width={48} height={48} className="object-contain mb-2" />
             </Link>
             <p className="text-xs text-white/60 leading-snug mb-3">
-              The Perfect Building<br />Supply Company
+              The Perfect Building<br />Supply 
             </p>
             <address className="not-italic text-xs text-white/50 space-y-1">
-              <p>515 Mountain Dr</p>
-              <p>Destin, FL 32541</p>
-              <p>
-                <a href="tel:+18503987361" className="hover:text-white transition-colors">
-                  James: (850) 398-7361
-                </a>
-              </p>
+              <p> </p>
+              <p>Destin, FL 32541</p>              
               <p>
                 <a href="tel:+17139271500" className="hover:text-white transition-colors">
                   Thanh: (713) 927-1500
                 </a>
-              </p>
-              <p>
-                <a href="mailto:MrPerfectBuildingSupply@gmail.com" className="hover:text-white transition-colors">
-                  MrPerfectBuildingSupply@gmail.com
-                </a>
-              </p>
+              </p>              
               <p>
                 <a href="mailto:LettonLLC@gmail.com" className="hover:text-white transition-colors">
                   LettonLLC@gmail.com
