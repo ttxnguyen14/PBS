@@ -74,14 +74,7 @@ export default function HomeHero() {
           <Button href="/sign-up" variant="accent" size="lg">
             Get a Quote
           </Button>
-          <Button
-            href="tel:+18503987361"
-            variant="outline"
-            size="lg"
-            className="border-white text-white hover:bg-white hover:text-charcoal"
-          >
-            James: (850) 398-7361
-          </Button>
+         
           <Button
             href="tel:+17139271500"
             variant="outline"
