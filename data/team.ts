@@ -15,10 +15,10 @@ export const teamMembers: TeamMember[] = [
     bio: "",
   },
   {
-    name: "TBD",
-    role: "Co-Founder",
+    name: "James Youngblood",
+    role: "President & Co-Founder",
     location: "Destin, FL",
-    image: "/avatars/tbd.png",
+    image: "/avatars/james_youngblood.png",
     bio: "",
   },
 {
