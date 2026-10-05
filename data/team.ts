@@ -16,7 +16,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "James Youngblood",
-    role: "Co-Founder",
+    role: "President & Co-Founder",
     location: "Destin, FL",
     image: "/avatars/james_youngblood.png",
     bio: "",
